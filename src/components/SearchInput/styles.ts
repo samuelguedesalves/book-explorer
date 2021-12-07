@@ -1,5 +1,9 @@
 import { styled } from '../../stitches.config';
 
+export const RelativeSearchInput = styled('div', {
+  position: 'relative'
+})
+
 export const SearchInputStyles = styled('div', {
   boxSizing: 'border-box',
   display: 'flex',
